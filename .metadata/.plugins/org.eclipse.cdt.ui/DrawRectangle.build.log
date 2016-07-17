@@ -1,15 +1,6 @@
-16:39:42 **** Incremental Build of configuration Debug for project DrawRectangle ****
+17:31:06 **** Incremental Build of configuration Debug for project DrawRectangle ****
 make all 
-Building file: ../src/DrawRectangle.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
-Finished building: ../src/DrawRectangle.cpp
- 
-Building target: DrawRectangle
-Invoking: GCC C++ Linker
-g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
-Finished building target: DrawRectangle
- 
+make: Nothing to be done for `all'.
 
-16:39:44 Build Finished (took 1s.538ms)
+17:31:06 Build Finished (took 69ms)
 

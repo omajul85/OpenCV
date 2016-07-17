@@ -1,6 +1,6 @@
-16:39:42 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+17:31:05 **** Incremental Build of configuration Debug for project DisplayAndSave ****
 make all 
 make: Nothing to be done for `all'.
 
-16:39:42 Build Finished (took 68ms)
+17:31:05 Build Finished (took 73ms)
 
