@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DisplayAndSave/src/DisplayImage.cpp&apos; to &apos;DisplayAndSave.cpp&apos;" description="Rename resource &apos;DisplayImage.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DisplayImage.cpp" name="DisplayAndSave.cpp" stamp="1468767125103" updateReferences="true"/>
+</session>

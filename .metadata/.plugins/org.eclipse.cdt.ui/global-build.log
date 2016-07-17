@@ -1,0 +1,872 @@
+11:55:53 **** Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:29: error: ‘imread’ was not declared in this scope
+  image = imread( argv[1], 1 );
+                             ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:00:30 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:29: error: ‘imread’ was not declared in this scope
+  image = imread( argv[1], 1 );
+                             ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:02:12 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:29: error: ‘imread’ was not declared in this scope
+  image = imread( argv[1], 1 );
+                             ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:06:13 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core\ opencv_imgproc\ opencv_highgui\ opencv_imgproc\ opencv_photo\ opencv_ml
+/usr/bin/ld: cannot find -lopencv_core opencv_imgproc opencv_highgui opencv_imgproc opencv_photo opencv_ml
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:09:35 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-L/usr/local/lib\ -lopencv_shape\ -lopencv_stitching\ -lopencv_objdetect\ -lopencv_superres\ -lopencv_videostab\ -lopencv_calib3d\ -lopencv_features2d\ -lopencv_highgui\ -lopencv_videoio\ -lopencv_imgcodecs\ -lopencv_video\ -lopencv_photo\ -lopencv_ml\ -lopencv_imgproc\ -lopencv_flann\ -lopencv_core
+/usr/bin/ld: cannot find -l-L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:09:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-L/usr/local/lib\ -lopencv_shape\ -lopencv_stitching\ -lopencv_objdetect\ -lopencv_superres\ -lopencv_videostab\ -lopencv_calib3d\ -lopencv_features2d\ -lopencv_highgui\ -lopencv_videoio\ -lopencv_imgcodecs\ -lopencv_video\ -lopencv_photo\ -lopencv_ml\ -lopencv_imgproc\ -lopencv_flann\ -lopencv_core
+/usr/bin/ld: cannot find -l-L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:10:03 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:12:23 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp:1:41: fatal error: "opencv2/imgproc/imgproc.hpp": No such file or directory
+ #include <"opencv2/imgproc/imgproc.hpp">
+                                         ^
+compilation terminated.
+make: *** [src/DisplayImage.o] Error 1
+12:12:23 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp:1:41: fatal error: "opencv2/imgproc/imgproc.hpp": No such file or directory
+ #include <"opencv2/imgproc/imgproc.hpp">
+                                         ^
+compilation terminated.
+make: *** [src/DisplayImage.o] Error 1
+12:12:55 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp:1:41: fatal error: "opencv2/imgproc/imgproc.hpp": No such file or directory
+ #include <"opencv2/imgproc/imgproc.hpp">
+                                         ^
+compilation terminated.
+make: *** [src/DisplayImage.o] Error 1
+12:13:15 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-L/usr/local/lib\ -lopencv_shape\ -lopencv_stitching\ -lopencv_objdetect\ -lopencv_superres\ -lopencv_videostab\ -lopencv_calib3d\ -lopencv_features2d\ -lopencv_highgui\ -lopencv_videoio\ -lopencv_imgcodecs\ -lopencv_video\ -lopencv_photo\ -lopencv_ml\ -lopencv_imgproc\ -lopencv_flann\ -lopencv_core
+/usr/bin/ld: cannot find -l-L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:14:33 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core\ opencv_imgproc\ opencv_highgui
+/usr/bin/ld: cannot find -lopencv_core opencv_imgproc opencv_highgui
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:15:17 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-lopencv_core\ -lopencv_imgproc\ -lopencv_highgui
+/usr/bin/ld: cannot find -l-lopencv_core -lopencv_imgproc -lopencv_highgui
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:17:15 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_shape\ opencv_stitching\ opencv_objdetect\ opencv_superres\ opencv_videostab\ opencv_calib3d\ opencv_features2d\ opencv_highgui\ opencv_videoio\ opencv_imgcodecs\ opencv_video\ opencv_photo\ opencv_ml\ opencv_imgproc\ opencv_flann\ opencv_core
+/usr/bin/ld: cannot find -lopencv_shape opencv_stitching opencv_objdetect opencv_superres opencv_videostab opencv_calib3d opencv_features2d opencv_highgui opencv_videoio opencv_imgcodecs opencv_video opencv_photo opencv_ml opencv_imgproc opencv_flann opencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:18:07 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:18:19 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:12: error: expected primary-expression before ‘.’ token
+  image = cv.imread(argv[1], 1);
+            ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:18:37 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:10: error: ‘imread’ is not a member of ‘cv’
+  image = cv::imread(argv[1], 1);
+          ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:21:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:24:49 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:27:29 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-I/usr/local/include/opencv\ -I/usr/local/include\ \ -L/usr/local/lib\ -lopencv_shape\ -lopencv_stitching\ -lopencv_objdetect\ -lopencv_superres\ -lopencv_videostab\ -lopencv_calib3d\ -lopencv_features2d\ -lopencv_highgui\ -lopencv_videoio\ -lopencv_imgcodecs\ -lopencv_video\ -lopencv_photo\ -lopencv_ml\ -lopencv_imgproc\ -lopencv_flann\ -lopencv_core
+/usr/bin/ld: cannot find -l-I/usr/local/include/opencv -I/usr/local/include  -L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:28:55 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_highgui\ opencv_imgcodecs\ opencv_video\ opencv_photo\ opencv_imgproc\ opencv_flann\ opencv_core
+/usr/bin/ld: cannot find -lopencv_highgui opencv_imgcodecs opencv_video opencv_photo opencv_imgproc opencv_flann opencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:29:39 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-lopencv_highgui
+/usr/bin/ld: cannot find -l-lopencv_highgui
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:32:20 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:12:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:18:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:19:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:20:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:35:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:9:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:15:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:16:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:17:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:35:52 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:9:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:15:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:16:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:17:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:36:35 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:9:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:15:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:16:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:17:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:36:49 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:9:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:15:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:16:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:17:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:37:08 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+12:37:51 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core\ opencv_imgproc\ opencv_highgui
+/usr/bin/ld: cannot find -lopencv_core opencv_imgproc opencv_highgui
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+12:39:14 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -l-I/usr/local/include/opencv\ -I/usr/local/include\ \ -L/usr/local/lib\ -lopencv_shape\ -lopencv_stitching\ -lopencv_objdetect\ -lopencv_superres\ -lopencv_videostab\ -lopencv_calib3d\ -lopencv_features2d\ -lopencv_highgui\ -lopencv_videoio\ -lopencv_imgcodecs\ -lopencv_video\ -lopencv_photo\ -lopencv_ml\ -lopencv_imgproc\ -lopencv_flann\ -lopencv_core
+/usr/bin/ld: cannot find -l-I/usr/local/include/opencv -I/usr/local/include  -L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_core
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+13:15:32 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui
+/usr/bin/ld: ./src/DisplayImage.o: undefined reference to symbol '_ZN2cv6imreadERKNS_6StringEi'
+//usr/local/lib/libopencv_imgcodecs.so.3.1: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+13:15:45 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:8:27: error: ‘imread’ was not declared in this scope
+  image = imread(argv[1], 1);
+                           ^
+../src/DisplayImage.cpp:14:51: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( "Display Image", CV_WINDOW_AUTOSIZE );
+                                                   ^
+../src/DisplayImage.cpp:15:33: error: ‘imshow’ was not declared in this scope
+  imshow( "Display Image", image );
+                                 ^
+../src/DisplayImage.cpp:16:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+13:17:08 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgproc -lopencv_highgui
+/usr/bin/ld: ./src/DisplayImage.o: undefined reference to symbol '_ZN2cv6imreadERKNS_6StringEi'
+//usr/local/lib/libopencv_imgcodecs.so.3.1: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make: *** [DisplayImage] Error 1
+13:19:41 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+13:19:54 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:21:22 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:28:01 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+13:28:03 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:28:37 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:31:21 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:31:25 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:31:41 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:31:58 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:33:43 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:40:29 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:40:32 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:51:34 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:52:15 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:52:18 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:52:27 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+13:52:44 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+13:53:29 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+14:52:18 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+../src/DisplayImage.cpp: In function ‘int main(int, char**)’:
+../src/DisplayImage.cpp:10:31: error: ‘imread’ was not declared in this scope
+  image = imread( imageName, 1 );
+                               ^
+../src/DisplayImage.cpp:19:43: error: ‘cvtColor’ was not declared in this scope
+  cvtColor( image, gray_image, CV_BGR2GRAY );
+                                           ^
+../src/DisplayImage.cpp:21:53: error: ‘imwrite’ was not declared in this scope
+  imwrite( "../../images/Gray_Image.jpg", gray_image );
+                                                     ^
+../src/DisplayImage.cpp:22:45: error: ‘namedWindow’ was not declared in this scope
+  namedWindow( imageName, CV_WINDOW_AUTOSIZE );
+                                             ^
+../src/DisplayImage.cpp:25:27: error: ‘imshow’ was not declared in this scope
+  imshow( imageName, image );
+                           ^
+../src/DisplayImage.cpp:28:11: error: ‘waitKey’ was not declared in this scope
+  waitKey(0);
+           ^
+make: *** [src/DisplayImage.o] Error 1
+14:54:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+14:57:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+15:00:14 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+15:21:57 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+15:28:06 **** Incremental Build of configuration Release for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs
+Finished building target: DisplayImage
+ 
+15:35:17 **** Incremental Build of configuration Release for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_imgcodecs
+Finished building target: DisplayImage
+ 
+15:35:20 **** Incremental Build of configuration Release for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+15:35:51 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+15:35:53 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+15:36:35 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+15:37:21 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+15:40:38 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building file: ../src/DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayImage.d" -MT"src/DisplayImage.d" -o "src/DisplayImage.o" "../src/DisplayImage.cpp"
+Finished building: ../src/DisplayImage.cpp
+ 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./src/DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DisplayImage
+ 
+15:58:07 **** Build of configuration Debug for project DisplayAndSave ****
+make all 
+Building file: ../src/DisplayAndSave.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DisplayAndSave.d" -MT"src/DisplayAndSave.d" -o "src/DisplayAndSave.o" "../src/DisplayAndSave.cpp"
+Finished building: ../src/DisplayAndSave.cpp
+ 
+Building target: DisplayAndSave
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "DisplayAndSave"  ./src/DisplayAndSave.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc
+Finished building target: DisplayAndSave
+ 
+15:58:09 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:27:17 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:27:17 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:27:18 **** Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:29:19 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:29:19 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:29:20 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:29:40 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:29:40 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:29:40 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:32:53 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:32:53 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:32:53 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:34:04 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:34:04 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:34:05 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:36:44 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:36:44 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:36:44 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:37:42 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:37:42 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:37:42 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:38:59 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:38:59 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:38:59 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
+16:39:42 **** Incremental Build of configuration Debug for project DisplayAndSave ****
+make all 
+make: Nothing to be done for `all'.
+16:39:42 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+make: Nothing to be done for `all'.
+16:39:42 **** Incremental Build of configuration Debug for project DrawRectangle ****
+make all 
+Building file: ../src/DrawRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DrawRectangle.d" -MT"src/DrawRectangle.d" -o "src/DrawRectangle.o" "../src/DrawRectangle.cpp"
+Finished building: ../src/DrawRectangle.cpp
+ 
+Building target: DrawRectangle
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DrawRectangle"  ./src/DrawRectangle.o   -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -lopencv_highgui
+Finished building target: DrawRectangle
+ 
