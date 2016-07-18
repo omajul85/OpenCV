@@ -40,7 +40,7 @@ int main( int argc, char** argv )
 
 	Mat histImage(hist_height, hist_width, CV_8UC3, Scalar(0, 0, 0));
 
-	// Normalize the result to { 0, histImage.rows }
+	// Normalize the result to { 0, histImage.rows (400) }
 	normalize(b_hist, b_hist, 0, histImage.rows, NORM_MINMAX, -1, Mat());
 	normalize(g_hist, g_hist, 0, histImage.rows, NORM_MINMAX, -1, Mat());
 	normalize(r_hist, r_hist, 0, histImage.rows, NORM_MINMAX, -1, Mat());
